@@ -1,6 +1,61 @@
-# data-science-mini-projects
- 
-# Project 1: Population Data Cleaning and Preprocessing
+# This repo contains two projects.
+1. Project1: Melatonin Product Reviews: Data Cleaning and Analysis [Find in the miniproject.ipynb file]
+2. Project 2: Population Data Cleaning and Preprocessing [Find in the info6105 folder]
+
+# Project1: Melatonin Product Reviews: Data Cleaning and Analysis
+
+## Introduction
+This project involves loading, cleaning, merging, and analyzing review data from multiple melatonin products with varying doses. The goal is to understand customer sentiment and identify key themes in the reviews.
+
+## Data Preparation and Merging
+- **Loading Data:** The data was loaded from multiple CSV files, each representing different melatonin products with varying doses.
+- **Merging Data:** The files were merged into a single DataFrame to streamline analysis. Each file's dose information was manually specified and added to the DataFrame.
+
+### Files and Doses
+- `B07N46LTJJ_ZzzQuilPureZzzsMelatoninSleepAidGummies-2mg.csv`: 2mg
+- `B07PF1SN5B_vitafusionMaxStrengthMelatoninGummySupplements-10mg.csv`: 10mg
+- `B08CGYFB2Q_VitamaticMelatonin20mgTablets.csv`: 20mg
+- `B079TD7HG2_NatrolMelatoninSleepAidGummy-10mg.csv`: 10mg
+- `B08451719W_CarlyleMelatonin12mgFastDissolve300Tablets.csv`: 12mg
+
+### Combined Data Columns
+- **Product Title:** Identifies the product.
+- **Review Rating:** Numerical rating given by the reviewer.
+- **Review Text:** Text of the review.
+- **Review Header:** Summary or title of the review.
+- **Dose:** Melatonin dosage of the product.
+
+## Sentiment Analysis
+### Rating-Based Sentiment Categorization
+- Reviews were classified into Positive, Neutral, or Negative based on review ratings:
+  - Positive: Ratings 4-5
+  - Neutral: Rating 3
+  - Negative: Ratings 1-2
+
+### TextBlob Analysis
+- Utilized TextBlob to derive sentiment from the review texts, providing deeper insights into customer perceptions.
+
+### Sentiment Distribution
+- **Positive Reviews:** 5914
+- **Negative Reviews:** 1226
+- **Neutral Reviews:** 570
+- Visualized the distribution of sentiments using a bar chart.
+
+## Text Analysis Using TF-IDF
+- Applied Term Frequency-Inverse Document Frequency (TF-IDF) to identify and score the most relevant words within the review texts.
+- Highlighted key terms that are most influential in the reviews.
+
+### Key Terms Analysis
+- **Top Terms:**
+  - Sleep, Great, Good, Works, Work, Taste, Product, Melatonin, Asleep, Night, Like, Well, Take, Gummies, Help, Flavor, Get, Really
+
+### Visualization of Key Terms
+- Created a word cloud to visualize the most frequently mentioned terms in the reviews, highlighting prominent themes.
+
+## Conclusion
+The project successfully loaded, cleaned, and merged review data from multiple melatonin products. Sentiment analysis and text analysis provided valuable insights into customer perceptions and key themes in the reviews. The cleaned and processed data is now ready for further analysis and visualization.
+
+# Project 2: Population Data Cleaning and Preprocessing
 
 ## Introduction
 This project involves cleaning and preprocessing population data for various states to make it suitable for analysis and visualization. The goal is to transform raw data into a format that is easy to analyze and derive insights from.
