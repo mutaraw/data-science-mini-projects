@@ -2,7 +2,7 @@
 1. Project1: Melatonin Product Reviews: Data Cleaning and Analysis [Find in the miniproject.ipynb file]
 2. Project 2: Population Data Cleaning and Preprocessing [Find in the info6105 folder]
 
-# Project1: Melatonin Product Reviews: Data Cleaning and Analysis
+# Project 1: Melatonin Product Reviews: Data Cleaning and Analysis
 
 ## Introduction
 This project involves loading, cleaning, merging, and analyzing review data from multiple melatonin products with varying doses. The goal is to understand customer sentiment and identify key themes in the reviews.
