@@ -100,4 +100,4 @@ The dataset includes various demographic metrics for different states, such as:
 4. **Economic Indicators:** Histograms for employment and poverty levels showed variations in employment rates and economic disparities across states.
 
 ## Conclusion
-This project successfully cleaned and reshaped the population data, making it ready for further analysis and visualization. The cleaned dataset now allows for accurate and insightful analysis of various demographic metrics across states, facilitating better understanding and decision-making.
+Feel free to expand on these projects as you my see fit.
